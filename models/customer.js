@@ -78,7 +78,7 @@ class Customer {
       );
     }
   }
-  async fullName() {
+  fullName() {
     return `${this.firstName} ${this.lastName}`
   }
 }
